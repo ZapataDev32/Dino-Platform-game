@@ -1,24 +1,19 @@
-var config = {
-    type: Phaser.AUTO,
-    width: 800,
-    height: 600,
-    scene: {
-        preload: preload,
-        create: create,
-        update: update
-    }
-};
+import Phaser from 'phaser'
 
-var game = new Phaser.Game(config);
-
-function preload ()
+export default class GameScene extends Phaser.Scene
 {
-}
+	constructor()
+	{
+		super('game-scene')
+	}
 
-function create ()
-{
-}
+	preload()
+	{
 
-function update ()
-{
+	}
+
+	create()
+	{
+		
+	}
 }
